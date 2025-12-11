@@ -28,17 +28,17 @@ RealEstateX is a full-stack property management system built to handle property 
 
 ## Project Structure
 /backend
-├── controllers
-├── models
-├── routes
-├── middleware
-└── config
+/├── controllers
+/├── models
+/├── routes
+/├── middleware
+/└── config
 
 /frontend
-├── src/components
-├── src/pages
-├── src/services
-└── public
+/├── src/components
+/├── src/pages
+/├── src/services
+/└── public
 
 
 ## Getting Started
@@ -48,20 +48,20 @@ RealEstateX is a full-stack property management system built to handle property 
 git clone https://github.com/AtharvaShinde911/RealEstateX.git
 cd RealEstateX
 
-2. Install dependencies
+### 2. Install dependencies
 
-Frontend
+## Frontend
 
 cd frontend
 npm install
 
 
-Backend
+## Backend
 
 cd backend
 npm install
 
-3. Environment Variables
+### 3. Environment Variables
 
 Create a .env file in the backend folder:
 
@@ -69,7 +69,7 @@ MONGO_URI=your_mongo_connection_string
 JWT_SECRET=your_secret_key
 PORT=5000
 
-4. Run the project
+### 4. Run the project
 
 Backend
 
@@ -81,7 +81,7 @@ Frontend
 npm start
 
 
-Future Improvements
+** Future Improvements **
 
 Map integration for property locations
 
