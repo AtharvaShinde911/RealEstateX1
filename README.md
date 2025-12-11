@@ -72,26 +72,23 @@ PORT=5000
 ### 4. Run the project
 
 **Backend**
-
 npm start
-
 
 **Frontend**
-
 npm start
 
 
-##Future Improvements
+## Future Improvements
 
-Map integration for property locations
+- Map integration for property locations
 
-Real-time chat between agents and customers
+- Real-time chat between agents and customers
 
-Payment gateway for booking properties
+- Payment gateway for booking properties
 
-Advanced analytics dashboard for admins
+- Advanced analytics dashboard for admins
 
-##License
+## License
 
 This project is open-source and available under the MIT License.
 
