@@ -71,7 +71,7 @@ export function PropertyForm({ property, onSubmit, isLoading }: PropertyFormProp
 
   return (
     <Form {...form}>
-      <form className="space-y-6">
+      <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
         <Card>
           <CardHeader>
             <CardTitle>Basic Information</CardTitle>
