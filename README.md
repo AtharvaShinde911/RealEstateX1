@@ -28,17 +28,17 @@ RealEstateX is a full-stack property management system built to handle property 
 
 ## Project Structure
 /backend
-/├── controllers
-/├── models
-/├── routes
-/├── middleware
-/└── config
+├── controllers
+├── models
+├── routes
+├── middleware
+└── config
 
 /frontend
-/├── src/components
-/├── src/pages
-/├── src/services
-/└── public
+├── src/components
+├── src/pages
+├── src/services
+└── public
 
 
 ## Getting Started
@@ -50,13 +50,13 @@ cd RealEstateX
 
 ### 2. Install dependencies
 
-## Frontend
+**Frontend**
 
 cd frontend
 npm install
 
 
-## Backend
+**Backend**
 
 cd backend
 npm install
@@ -71,17 +71,17 @@ PORT=5000
 
 ### 4. Run the project
 
-Backend
+**Backend**
 
 npm start
 
 
-Frontend
+**Frontend**
 
 npm start
 
 
-** Future Improvements **
+##Future Improvements
 
 Map integration for property locations
 
@@ -91,7 +91,7 @@ Payment gateway for booking properties
 
 Advanced analytics dashboard for admins
 
-License
+##License
 
 This project is open-source and available under the MIT License.
 
